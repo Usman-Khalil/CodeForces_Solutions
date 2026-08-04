@@ -24,7 +24,7 @@ int main()
 		for (int i = 0; i < n; i++) {
 			cin >> arr[i];
 		}
-		cout << findMinVol(arr, x) << endl;
+		cout << findMinVol(arr, x) << '\n';
 		t--;
 	}
 	return 0;
